@@ -307,7 +307,7 @@ function showCardThenReveal(choice) {
             note.innerText = "";
             startFinalReveal(choice);
         }, 1500); // This number controls how long the delay is until the final message types out 
-    }, 80000); //This number controls how long the love note stays on screen
+    }, 60000); //This number controls how long the love note stays on screen
 }
 
 function startFinalReveal(choice) {
